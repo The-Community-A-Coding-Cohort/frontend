@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.0",
+    "astro": "^5.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "svelte": "^5.20.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@astrojs/svelte": "^7.0.4",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.23",
+    "postcss": "^8.5.2"
+  }
+}
