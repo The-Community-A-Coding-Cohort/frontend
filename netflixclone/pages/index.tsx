@@ -23,9 +23,7 @@ export default function Home() {
   const { data: user } = useCurrentUser();
   return (
     <>
-      <h1 className="text-4xl text-green-500">Netflix Clone</h1>
-      <p className="text-white">Logged in as: {user?.name}</p>
-      <button className="h-10 w-full bg-white text-black" onClick={() => signOut()}>Sign Out</button>
+      <Navbar />
     </>
   )
 }
