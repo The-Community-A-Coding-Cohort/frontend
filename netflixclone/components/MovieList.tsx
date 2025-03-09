@@ -19,9 +19,9 @@ const MovieList: React.FC<MovieListProps> = ({ data, title }) => {
                     {title}
                 </p>
                 <div className="grid grid-cols-4 gap-2">
-                    {data.map((movie) => (
+                    {/* {data.map((movie) => (
                         <div key={movie.id}>movie</div>
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>
